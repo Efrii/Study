@@ -1,0 +1,323 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+    @media (max-width: 575.98px) {
+        .budi{
+            margin-top: -100px; 
+        width: 100%; 
+        height: auto;
+        }
+        .title{
+            margin-top: 5px;
+        }
+        .efri{
+            width: 8%;
+            height: 45px; 
+            border-radius: 100%;
+        }
+        .rangga{
+                z-index: 0;
+                margin-top: -150;
+                position: sticky;
+        }
+    }
+    @media (max-width: 991.00px) {
+        .budi{
+            margin-top: -100px; 
+        width: 100%; 
+        height: auto;
+        }
+        .title{
+            margin-top: 5px;
+        }
+        .efri{
+            width: 8%;
+            height: 45px; 
+            border-radius: 100%;
+        }
+    }
+    @media (min-width: 992.00px) {
+        .title{
+            margin-top: 150px;
+        }
+        .budik{
+            margin-top: -100px; 
+            margin-bottom: -100px;
+        width: 50%; 
+        height: auto;
+        }
+        .efri{
+            width: 50;
+            height: 100%; 
+            border-radius: 100%;
+        }
+        .rangga{
+                z-index: 1;
+                position: absolute; 
+                margin-top: -200px; 
+                margin-left: 70px;
+        }
+    }
+
+
+#nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar{
+    padding-top: 10px;
+    background-color: #FBF8F6;
+}
+
+
+.navbar .btnlogin{
+    margin-left: 50px;
+    color: #10BFC2;
+}
+
+.navbar .btnregister{
+    background-color:#10BFC2 ;
+    color: white;
+}
+
+.banner{
+    padding-top: 150px;
+    background-color: #FBF8F6;
+    padding-bottom: 70px;
+}
+
+
+
+.title p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.title .btnsearch{
+    background-color:  #10BFC2;
+    color: white;
+}
+
+.gambar{
+    margin-top: 20px;
+}
+
+.course{
+/*    padding-top: 100px;*/
+    padding-bottom: 150px;
+}
+
+.course p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.course .btncourse{
+    color: white;
+    background-color: #10BFC2;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+
+.course .cari{
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+/*.card {
+   min-height: 450px;
+}*/
+
+.about{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color:  #FBF8F6;
+}
+
+.about p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.aboutt{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+.about .btnabout{
+    color: white;
+    background-color: #10BFC2;
+}
+
+.banner{
+    background-color:#FBF8F6;
+}
+
+.paket{
+    background-color: #FBF8F6;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.paket p{
+    margin-top: 20px;
+    opacity: 50%;
+    font-size: 20px;
+}
+
+.paket-detail{
+    margin-top: 50px;
+    background-color: #253252;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.paket-detail .badge{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    background-color: #10BFC2;
+}
+
+.paket-detail h3{
+    padding-top: 30px;
+    color: white;
+}
+
+.paket-detail .uang{
+    font-size: 60px;
+    color: white;
+}
+
+.paket-detail .harga{
+    font-size: 40px;
+    color: white;
+}
+
+.paket-detail .periode{
+    font-size: 30px;
+    color: white;
+}
+
+.paket-detail .btn-buy{
+    margin-top: 50px;
+    background-color: #10BFC2;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact{
+    padding-top: 100px;
+    background-color: #FBF8F6;
+    padding-bottom: 100px;
+}
+
+
+.kami h2{
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 25px;
+    }
+
+    .contact .info .email, .contact .info .phone {
+        margin-top: 40px;
+      }
+      
+      .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+        background: #10BFC2;
+        color: #fff;
+      }
+      
+      .contact .php-email-form {
+        width: 100%;
+      }
+      
+      .contact .php-email-form .form-group {
+        padding-bottom: 8px;
+      }
+      
+      .contact .php-email-form .validate {
+        display: none;
+        color: red;
+        margin: 0 0 15px 0;
+        font-weight: 400;
+        font-size: 13px;
+      }
+      
+      .contact .php-email-form .error-message {
+        display: none;
+        color: #fff;
+        background: #ed3c0d;
+        text-align: left;
+        padding: 15px;
+        font-weight: 600;
+      }
+      
+      .contact .php-email-form .error-message br + br {
+        margin-top: 25px;
+      }
+      
+      .contact .php-email-form .sent-message {
+        display: none;
+        color: #fff;
+        background: #18d26e;
+        text-align: center;
+        padding: 15px;
+        font-weight: 600;
+      }
+      
+      .contact .php-email-form .loading {
+        display: none;
+        background: #fff;
+        text-align: center;
+        padding: 15px;
+      }
+      
+      .contact .php-email-form .loading:before {
+        content: "";
+        display: inline-block;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        margin: 0 10px -6px 0;
+        border: 3px solid #18d26e;
+        border-top-color: #eee;
+        -webkit-animation: animate-loading 1s linear infinite;
+        animation: animate-loading 1s linear infinite;
+      }
+      
+      .contact .php-email-form input, .contact .php-email-form textarea {
+        border-radius: 0;
+        box-shadow: none;
+        font-size: 14px;
+      }
+      
+      .contact .php-email-form input {
+        height: 44px;
+      }
+      
+      .contact .php-email-form textarea {
+        padding: 10px 12px;
+      }
+      
+      .contact .php-email-form button[type="submit"] {
+        background:#10BFC2;
+        border: 0;
+        padding: 10px 24px;
+        color: #fff;
+        transition: 0.4s;
+        border-radius: 50px;
+      }
+      
+      .contact .php-email-form button[type="submit"]:hover {
+        background: #10BFC2;
+      }
+    
+    

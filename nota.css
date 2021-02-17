@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav .logo {
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: 60px;
+  padding-left: 110px;
+}
+nav .logo:hover {
+  color: #e7b718;
+}
+nav ul li .searchbox {
+  padding: 5px 20px;
+  width: 500px;
+  background-color: white;
+  border: 1.5px solid rgb(224, 224, 224);
+  border-radius: 30px;
+}
+nav ul li .searchbox input {
+  width: 95%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+nav ul li .searchbox button {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+nav {
+  height: 60px;
+  background: #08336b;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+}
+nav ul {
+  float: right;
+  margin-right: 50px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  padding: 0 15px;
+  line-height: 60px;
+  font-family: "Montserrat";
+  font-size: 10px;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  color: #e7b718;
+}
+nav ul li .kategori {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #08336b;
+  top: 85px;
+  right: 70px;
+  border-top: 3px solid #e7b718;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li .kategori a {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins";
+  font-size: 11px;
+}
+nav ul li .kategori a:hover {
+  color: #e7b718;
+}
+nav ul li:hover > .kategori {
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s linear;
+}
+.main {
+  width: 100%;
+  height: auto;
+  min-height: 700px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #efefef;
+}
+.main .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+  padding: 30px 40px;
+  height: auto;
+  min-height: 700px;
+  background-color: white;
+}
+.main .container .content {
+  padding: 20px 30px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  min-height: 500px;
+  height: auto;
+  border-top-right-radius: 30px;
+  border: 1px solid #08336b;
+}
+.main .container .content table {
+  align-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.main .container .content th,
+td {
+  padding: 8px;
+  text-align: left;
+  font-family: "Poppins";
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+.main .container .bayar-btn {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Poppins";
+  border-radius: 5px;
+  padding: 6px 30px;
+  background-color: #08336b;
+}
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+}

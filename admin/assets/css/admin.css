@@ -1,0 +1,19 @@
+/*.menu-item-has-children .sub-menu {
+   hide this by default somehow maybe like this: 
+  height: 0;
+  overflow: hidden;
+}*/
+
+.nav-link:hover{
+    background-color: gray;
+    margin: 0;
+}
+
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: 0.4;
+    font-size: 90px;
+}
